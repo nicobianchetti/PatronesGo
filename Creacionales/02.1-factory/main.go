@@ -9,7 +9,7 @@ import (
 
 func main() {
 	var t int
-	fmt.Println("Digite la conexión que desea:\n Opción 1:MySql \n Opción 2:Postgres\n")
+	fmt.Println("Digite la conexión que desea:\n Opción 1:MySql \n Opción 2:Postgres")
 	_, err := fmt.Scan(&t)
 	if err != nil {
 		fmt.Printf("Error al leer la opción: %v", err)
