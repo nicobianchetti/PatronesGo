@@ -8,10 +8,11 @@ func main() {
 
 	ak47, _ := GetFactory().getOption(EnumOptionAk47)
 
+	_ = ak47
 	// ak47, _ := getGun("ak47")
 	// m4, _ := getGun("m4")
 
-	printDetails(ak47)
+	// printDetails(ak47)
 	// printDetails(m4)
 
 }
